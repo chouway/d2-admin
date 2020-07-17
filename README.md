@@ -1,4 +1,4 @@
-![banner](https://raw.githubusercontent.com/FairyEver/d2-admin/master/doc/image/banner.png)
+![banner](https://raw.githubusercontent.com/FairyEver/d2-admin/master/docs/image/banner.png)
 
 <p align="center">
 	<a href="https://github.com/d2-projects/d2-admin/stargazers" target="_blank"><img src="https://img.shields.io/github/stars/d2-projects/d2-admin.svg"></a>
@@ -13,6 +13,7 @@
 	<a href="https://github.com/d2-projects/d2-admin" target="_blank"><img src="https://visitor-count-badge.herokuapp.com/today.svg?repo_id=d2-projects.d2-admin"></a>
 	<a href="https://github.com/d2-projects/d2-admin" target="_blank"><img src="https://visitor-count-badge.herokuapp.com/total.svg?repo_id=d2-projects.d2-admin"></a>
 	<a href="https://github.com/d2-projects/d2-admin/releases" target="_blank"><img src="https://img.shields.io/github/release/d2-projects/d2-admin.svg"></a>
+	<a href="https://deepscan.io/dashboard#view=project&tid=8014&pid=10161&bid=136697"><img src="https://deepscan.io/api/teams/8014/projects/10161/branches/136697/badge/grade.svg" alt="DeepScan grade"></a>
 </p>
 
 [D2Admin](https://github.com/d2-projects/d2-admin) is a fully open source and free enterprise back-end product front-end integration solution, using the latest front-end technology stack, javascript files loading of local first screen less than 60kb, has prepared most of the project preparations, and with a lot of sample code to help the management system agile development.
@@ -21,12 +22,17 @@
 
 ## Preview
 
-| server | link | server | status |
-| --- | --- | --- | --- |
-| d2.pub | [preview](https://d2.pub/d2-admin/preview) | China server | [![](https://github.com/d2-projects/d2-admin/workflows/Deploy%20https%3A%2F%2Fd2.pub/badge.svg)](https://github.com/d2-projects/d2-admin/actions?query=workflow%3A%22Deploy+https%3A%2F%2Fd2.pub%22) |
-| cdn.d2.pub | [preview](https://cdn.d2.pub/d2-admin/preview) | qiniu CDN | [![](https://github.com/d2-projects/d2-admin/workflows/Deploy%20https%3A%2F%2Fcdn.d2.pub/badge.svg)](https://github.com/d2-projects/d2-admin/actions?query=workflow%3A%22Deploy+https%3A%2F%2Fcdn.d2.pub%22) |
-| github | [preview](https://d2-projects.github.io/d2-admin) | GitHub pages | [![](https://github.com/d2-projects/d2-admin/workflows/Deploy%20Github/badge.svg)](https://github.com/d2-projects/d2-admin/actions?query=workflow%3A%22Deploy+Github%22) |
-| netlify | [preview](https://d2-admin.netlify.com) | Netlify CDN | [![](https://api.netlify.com/api/v1/badges/a5dd4bbd-da3f-4145-98a9-8012577bdcf5/deploy-status)](https://app.netlify.com/sites/d2-admin/deploys) |
+![Deploy preview](https://github.com/d2-projects/d2-admin/workflows/Deploy%20preview/badge.svg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a5dd4bbd-da3f-4145-98a9-8012577bdcf5/deploy-status)](https://app.netlify.com/sites/d2-admin/deploys)
+
+The following access addresses are built and deployed by the latest master branch code at the same time. The access effect is completely consistent. Please select the appropriate access link according to your own network situation.
+
+| server | link | server |
+| --- | --- | --- |
+| d2.pub | [preview](https://d2.pub/d2-admin/preview) | China server |
+| cdn.d2.pub | [preview](https://cdn.d2.pub/d2-admin/preview) | qiniu CDN |
+| github | [preview](https://d2-projects.github.io/d2-admin) | GitHub pages |
+| netlify | [preview](https://d2-admin.netlify.com) | Netlify CDN |
 
 ## Document
 
@@ -97,7 +103,7 @@
 
 | type | link |
 | --- | --- |
-| gitee | [https://gitee.com/fairyever/d2-admin](https://gitee.com/fairyever/d2-admin) |
+| gitee | [https://gitee.com/d2-projects/d2-admin](https://gitee.com/d2-projects/d2-admin) |
 | coding | [https://d2-projects.coding.net/p/d2-projects/d/d2-admin/git](https://d2-projects.coding.net/p/d2-projects/d/d2-admin/git) |
 
 ## Other versions
@@ -120,6 +126,7 @@
 | Name | HomePage | Preview | Introduction |
 | --- | --- | --- | --- |
 | d2-admin-xiya-go-cms | [Github](https://github.com/d2-projects/d2-admin-xiya-go-cms) | [preview](https://d2.pub/d2-admin-xiya-go-cms/preview) | D2Admin + authority system + dynamic router |
+| d2-advance | [Github](https://github.com/d2-projects/d2-advance) | [preview](https://d2.pub/d2-advance/preview) | Technical exploration inspired by D2Admin |
 | d2-admin-pm | [Github](https://github.com/wjkang/d2-admin-pm) | [preview](http://jaycewu.coding.me/d2-admin-pm) | RBAC privilege management solution based on D2Admin |
 | LanBlog | [Github](https://github.com/sinksmell/LanBlog) | [preview](http://47.101.222.133/) | Vue + Beego restful api personal blog system |
 | d2-admin-start-kit-plus | [Github](https://github.com/hank-cp/d2-admin-start-kit-plus) | [preview](https://github.com/hank-cp/d2-admin-start-kit-plus) | D2Admin Start kit modular version |
@@ -131,6 +138,7 @@
 
 | Name | technology | HomePage | Preview | Introduction |
 | --- | --- | --- | --- | --- |
+| **FlaskPermission** | Flask | [Github](https://github.com/huguodong/flask-permission) | [preview](http://47.97.218.139:9999) | Permission management based on Flask |
 | **CareyShop** | ThinkPHP5 | [Github](https://github.com/dnyz520/careyshop-admin) | [preview](https://demo.careyshop.cn/admin/#/index) | High Performance Mall Framework System for CareyShop |
 | **jiiiiiin-security** | Spring Boot | [Github](https://github.com/Jiiiiiin/jiiiiiin-security) | [preview](https://github.com/Jiiiiiin/jiiiiiin-security) | Separate front-end and back-end content management infrastructure projects, focusing on user rights management functions |
 | **Taroco** | Spring Cloud | [Github](https://github.com/liuht777/Taroco) | [preview](http://111.231.192.110/) | Complete microservice enterprise solution |
@@ -143,13 +151,13 @@
 If your open source project is based on D2Admin development, please add the following badge to your README:
 
 <a href="https://github.com/d2-projects/d2-admin" target="_blank">
-	<img src="https://raw.githubusercontent.com/FairyEver/d2-admin/master/doc/image/d2-admin@2x.png" width="200">
+	<img src="https://raw.githubusercontent.com/FairyEver/d2-admin/master/docs/image/d2-admin@2x.png" width="200">
 </a>
 
 Copy the following code into the README to:
 
 ``` html
-<a href="https://github.com/d2-projects/d2-admin" target="_blank"><img src="https://raw.githubusercontent.com/FairyEver/d2-admin/master/doc/image/d2-admin@2x.png" width="200"></a>
+<a href="https://github.com/d2-projects/d2-admin" target="_blank"><img src="https://raw.githubusercontent.com/FairyEver/d2-admin/master/docs/image/d2-admin@2x.png" width="200"></a>
 ```
 
 At the same time, you can report your project to us. We will place the excellent project in D2Admin and help you publicize it.
@@ -170,7 +178,7 @@ At the same time, you can report your project to us. We will place the excellent
 
 ## Sponsor
 
-**cochlea** | **Baron** | **苦行僧** | **吴地安宁** | **KingDong**
+**cochlea** | **Baron** | **苦行僧** | **吴地安宁** | **KingDong** | **sunyongmofang**
 
 ## Visitor
 

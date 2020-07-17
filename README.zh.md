@@ -1,4 +1,4 @@
-![banner](https://raw.githubusercontent.com/FairyEver/d2-admin/master/doc/image/banner.png)
+![banner](https://raw.githubusercontent.com/FairyEver/d2-admin/master/docs/image/banner.png)
 
 <p align="center">
 	<a href="https://github.com/d2-projects/d2-admin/stargazers" target="_blank"><img src="https://img.shields.io/github/stars/d2-projects/d2-admin.svg"></a>
@@ -13,6 +13,7 @@
 	<a href="https://github.com/d2-projects/d2-admin" target="_blank"><img src="https://visitor-count-badge.herokuapp.com/today.svg?repo_id=d2-projects.d2-admin"></a>
 	<a href="https://github.com/d2-projects/d2-admin" target="_blank"><img src="https://visitor-count-badge.herokuapp.com/total.svg?repo_id=d2-projects.d2-admin"></a>
 	<a href="https://github.com/d2-projects/d2-admin/releases" target="_blank"><img src="https://img.shields.io/github/release/d2-projects/d2-admin.svg"></a>
+	<a href="https://deepscan.io/dashboard#view=project&tid=8014&pid=10161&bid=136697"><img src="https://deepscan.io/api/teams/8014/projects/10161/branches/136697/badge/grade.svg" alt="DeepScan grade"></a>
 </p>
 
 [D2Admin](https://github.com/d2-projects/d2-admin) 是一个完全 **开源免费** 的企业中后台产品前端集成方案，使用最新的前端技术栈，小于 60kb 的本地首屏 js 加载，已经做好大部分项目前期准备工作，并且带有大量示例代码，助力管理系统敏捷开发。
@@ -21,12 +22,17 @@
 
 ## 预览
 
-| 位置 | 链接 | 部署位置 | 构建状态 |
-| --- | --- | --- | --- |
-| d2.pub | [preview](https://d2.pub/d2-admin/preview) | 中国服务器 | [![](https://github.com/d2-projects/d2-admin/workflows/Deploy%20https%3A%2F%2Fd2.pub/badge.svg)](https://github.com/d2-projects/d2-admin/actions?query=workflow%3A%22Deploy+https%3A%2F%2Fd2.pub%22) |
-| cdn.d2.pub | [preview](https://cdn.d2.pub/d2-admin/preview) | 七牛云 CDN | [![](https://github.com/d2-projects/d2-admin/workflows/Deploy%20https%3A%2F%2Fcdn.d2.pub/badge.svg)](https://github.com/d2-projects/d2-admin/actions?query=workflow%3A%22Deploy+https%3A%2F%2Fcdn.d2.pub%22) |
-| github | [preview](https://d2-projects.github.io/d2-admin) | GitHub pages | [![](https://github.com/d2-projects/d2-admin/workflows/Deploy%20Github/badge.svg)](https://github.com/d2-projects/d2-admin/actions?query=workflow%3A%22Deploy+Github%22) |
-| netlify | [preview](https://d2-admin.netlify.com) | Netlify CDN | [![](https://api.netlify.com/api/v1/badges/a5dd4bbd-da3f-4145-98a9-8012577bdcf5/deploy-status)](https://app.netlify.com/sites/d2-admin/deploys) |
+![Deploy preview](https://github.com/d2-projects/d2-admin/workflows/Deploy%20preview/badge.svg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a5dd4bbd-da3f-4145-98a9-8012577bdcf5/deploy-status)](https://app.netlify.com/sites/d2-admin/deploys)
+
+下列访问地址均由最新的 master 分支代码同时构建部署，访问效果完全一致，请根据自身网络情况选择合适的访问链接。
+
+| 位置 | 链接 | 部署位置 |
+| --- | --- | --- |
+| d2.pub | [preview](https://d2.pub/d2-admin/preview) | 中国服务器 |
+| cdn.d2.pub | [preview](https://cdn.d2.pub/d2-admin/preview) | 七牛云 CDN |
+| github | [preview](https://d2-projects.github.io/d2-admin) | GitHub pages |
+| netlify | [preview](https://d2-admin.netlify.com) | Netlify CDN |
 
 ## 文档
 
@@ -97,7 +103,7 @@
 
 | 位置 | 链接 |
 | --- | --- |
-| 码云 | [https://gitee.com/fairyever/d2-admin](https://gitee.com/fairyever/d2-admin) |
+| 码云 | [https://gitee.com/d2-projects/d2-admin](https://gitee.com/d2-projects/d2-admin) |
 | coding | [https://d2-projects.coding.net/p/d2-projects/d/d2-admin/git](https://d2-projects.coding.net/p/d2-projects/d/d2-admin/git) |
 
 > 如果您在 github 仓库下载很慢，可以尝试使用我们的码云仓库克隆代码
@@ -122,6 +128,7 @@
 | 名称 | Github / 主页 | 预览 | 介绍 |
 | --- | --- | --- | --- |
 | d2-admin-xiya-go-cms | [Github](https://github.com/d2-projects/d2-admin-xiya-go-cms) | [预览](https://d2.pub/d2-admin-xiya-go-cms/preview) | D2Admin + 权限系统 + 动态路由 |
+| d2-advance | [Github](https://github.com/d2-projects/d2-advance) | [预览](https://d2.pub/d2-advance/preview) | 由 D2Admin 启发的技术探索 |
 | d2-admin-pm | [Github](https://github.com/wjkang/d2-admin-pm) | [预览](http://jaycewu.coding.me/d2-admin-pm) | 基于 D2Admin 的 RBAC 权限管理解决方案 |
 | LanBlog | [Github](https://github.com/sinksmell/LanBlog) | [预览](http://47.101.222.133/) | Vue + Beego restful api 开发的懒人博客 |
 | d2-admin-start-kit-plus | [Github](https://github.com/hank-cp/d2-admin-start-kit-plus) | [预览](https://github.com/hank-cp/d2-admin-start-kit-plus) | D2Admin 简化版模块化版本 |
@@ -133,6 +140,7 @@
 
 | 名称 | 技术 | Github / 主页 | 预览 | 介绍 |
 | --- | --- | --- | --- | --- |
+| FlaskPermission | Flask | [Github](https://github.com/huguodong/flask-permission) | [预览](http://47.97.218.139:9999) | 基于 Python Flask 的权限管理 |
 | CareyShop | ThinkPHP5 | [Github](https://github.com/dnyz520/careyshop-admin) | [预览](https://demo.careyshop.cn/admin/#/index) | 适用于 CareyShop 的高性能商城框架系统 |
 | jiiiiiin-security | Spring Boot | [Github](https://github.com/Jiiiiiin/jiiiiiin-security) | [预览](https://github.com/Jiiiiiin/jiiiiiin-security) | 前后端分离的内容管理基础项目，注重用户权限管理功能 |
 | Taroco | Spring Cloud | [Github](https://github.com/liuht777/Taroco) | [预览](http://111.231.192.110/) | 整套微服务企业级解决方案 |
@@ -147,20 +155,20 @@ D2Admin 是完全开源免费的项目，旨在帮助开发者更方便地进行
 * QQ 1 群 `806395827` ( 2000 人已满 )
 * QQ 2 群 `592981556`
 
-![join](https://raw.githubusercontent.com/FairyEver/d2-admin/master/doc/image/join@2x.png)
+![join](https://raw.githubusercontent.com/FairyEver/d2-admin/master/docs/image/join@2x.png)
 
 ## 徽章
 
 如果您的开源项目基于 D2Admin 开发，请在您的 README 添加下面的徽章：
 
 <a href="https://github.com/d2-projects/d2-admin" target="_blank">
-	<img src="https://raw.githubusercontent.com/FairyEver/d2-admin/master/doc/image/d2-admin@2x.png" width="200">
+	<img src="https://raw.githubusercontent.com/FairyEver/d2-admin/master/docs/image/d2-admin@2x.png" width="200">
 </a>
 
 复制下面代码加入到 README 中即可：
 
 ``` html
-<a href="https://github.com/d2-projects/d2-admin" target="_blank"><img src="https://raw.githubusercontent.com/FairyEver/d2-admin/master/doc/image/d2-admin@2x.png" width="200"></a>
+<a href="https://github.com/d2-projects/d2-admin" target="_blank"><img src="https://raw.githubusercontent.com/FairyEver/d2-admin/master/docs/image/d2-admin@2x.png" width="200"></a>
 ```
 
 同时您可以将您的项目汇报给我们，优秀项目我们会放置在 D2Admin 相关位置并帮助您宣传。
@@ -181,7 +189,7 @@ D2Admin 是完全开源免费的项目，旨在帮助开发者更方便地进行
 
 ## 赞助
 
-**cochlea** | **Baron** | **苦行僧** | **吴地安宁** | **KingDong**
+**cochlea** | **Baron** | **苦行僧** | **吴地安宁** | **KingDong** | **sunyongmofang**
 
 ## 访问统计
 
@@ -197,4 +205,4 @@ D2Admin 是完全开源免费的项目，旨在帮助开发者更方便地进行
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fd2-projects%2Fd2-admin.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fd2-projects%2Fd2-admin?ref=badge_large)
 
-![](https://raw.githubusercontent.com/FairyEver/d2-admin/master/doc/image/give-a-star@2x.png)
+![](https://raw.githubusercontent.com/FairyEver/d2-admin/master/docs/image/give-a-star@2x.png)
